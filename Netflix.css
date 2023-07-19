@@ -1,0 +1,290 @@
+/* ----------------------------Universal---------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ----------------------------Body---------------------------- */
+
+/* --------------PAGE 1--------------*/
+
+/* Body_background_image */
+.body{
+    background-image: url(/body_Image.jpg);
+    background-size: 2800px;
+    height: 94vh;
+    box-shadow: inset 50px 50px 20px 80px rgb(0, 0, 0, .3);
+}
+
+/* Body_background-fade */
+.fade{
+    height: 94vh;
+    background-color: rgb(0, 0, 0,.6);
+}
+
+/* Navigation-pannel */
+.nav{
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation-Left(logo) */
+.nav-right{
+    margin-left: 12%;
+}
+.logo_netflix{
+    height: 45px;
+    width: 150px;
+}
+
+/* Navigation-Right(logo, select, button) */
+
+.nav-right{
+    display: flex;
+    margin-right: 12%;
+    background-color: rgb(0, 0, 0,.8);
+}
+
+.logo-world_and_select{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+/* Logo_world */
+.logo_world{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 32px;
+    width: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* Select */
+.select{
+    background-color: black;
+    color: white;
+    height: 32px;
+    width: 110px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
+
+/* Button */
+.submit{
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    width: 76px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.submit:hover{
+    transform: scale(1.05);
+}
+
+/* Hero-section */
+.hero{
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading */
+.heading{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.para1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.para2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Email Id */
+.Email_id{
+    color: white;
+    height: 56px;
+    width: 385px;
+    border: 0.5px solid white;
+    background-color: rgb(0, 0, 0, .5);
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+/* Get-started_Button */
+.Button_Get-Started{
+    border: none;
+    background-color: #E50914;
+    color: white;
+    height: 56px;
+    width: 195px;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+
+.Button_Get-Started:hover{
+    transform: scale(1.02);
+}
+
+/* Last 6vh */
+.last{
+    height: 6vh;
+    border-top: 8px solid #232323;
+    background-color: black;
+}
+
+/* --------------PAGE 2--------------*/
+
+/* Hero Section */
+.background_page2{
+    height: 67vh;
+    background-color: black;
+}
+
+/* Image */
+.image_1{
+    height: 420px;
+    width: 580px;
+    background-image: url(/box4.png);
+    background-size: cover;
+}
+
+/* Background_page2 */
+.background_page2{
+    display: flex;
+    justify-content: center;
+}
+
+/* Paragraph_box */
+.paragraph_box{
+    height: 420px;
+    width: 553px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading_box{
+    font-size: 48px;
+    font-weight: 800;
+}
+.text_box{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+/* FAQ Section */
+.FAQ{
+    height: 80vh;
+    border-top: 8px solid #232323;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* FAQ Heading */
+.para{
+    display: flex;
+    justify-content: center;
+}
+
+.heading_box2{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    margin-top: 65px;
+}
+
+/* Dropdown */
+
+.dropdown{
+    margin-top: 10px;
+    color: white;
+    width: 1160px;
+    height: 84px;
+    background-color: #2a2929;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+/* ----------------------------footer---------------------------- */
+.footer{
+    background-color: black;
+    height: 50vh;
+}
+
+.content{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.white a{
+    color: #b6b6b6;
+}
+
+.content_column1{
+    display: flex;
+    flex-direction: column;
+}
+.content_column2{
+    display: flex;
+    flex-direction: column;
+}
+.content_column3{
+    display: flex;
+    flex-direction: column;
+}
+
+.margin a{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.copyright{
+    font-size: 14px;
+    /* height: 200px; */
+    color: rgb(119, 119, 119);
+    display: flex;
+    justify-content: center;
+    /* align-items: end; */
+}
+
+.copyright p{
+    position: relative;
+    top: 150px;
+}
